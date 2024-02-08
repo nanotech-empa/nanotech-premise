@@ -45,6 +45,6 @@ We acknowledge support from:
 * the [PREMISE](https://ord-premise.github.io/) project supported by the [Open Research Data Program](https://ethrat.ch/en/eth-domain/open-research-data/) of the ETH Board.
 
 <img src="https://raw.githubusercontent.com/aiidateam/aiida-quantumespresso/develop/docs/source/images/MARVEL.png" width="250px" height="131px"/>
-<img src="https://github.com/ord-premise/ord-premise.github.io/blob/main/assets/img/logos/PREMISE-logo.svg" width="300px" height="35px"/>
-<img src="https://ethrat.ch/wp-content/uploads/2021/12/ethr_en_rgb_black.svg" width="300px" height="35px"/>
+<img src="https://github.com/ord-premise/ord-premise.github.io/blob/main/assets/img/logos/PREMISE-logo.svg" width="300px" height="131px"/>
+<img src="https://ethrat.ch/wp-content/uploads/2021/12/ethr_en_rgb_black.svg" width="300px" height="131px"/>
 
