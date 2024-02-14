@@ -567,46 +567,46 @@
                                                                                     "face": "111"
                                                                                 },
                                                                                 {
-                                                                                    "@type": "Instrument",
-                                                                                    "name": "THz-STM/AFM",
-                                                                                    "serialNumber": "CT-122037110-03",
-                                                                                    "NotOntologise": "76698965",
-                                                                                    "documentationWebsite": "http://wikka.empa.ch",
-                                                                                    "receivedDate": "2021-12-08 00:00:00 +0000",
-                                                                                    "comments": "<p>Manufacturer: Createc</p>",
-                                                                                    "hasPart": [
-                                                                                        {
-                                                                                            "@type": "Room",
-                                                                                            "name": "La037",
-                                                                                            "comments": null
-                                                                                        },
-                                                                                        {
-                                                                                            "@type": "UHVComponent",
-                                                                                            "name": "Ion Pump / TSP",
-                                                                                            "type": "PUMP",
-                                                                                            "model": "HiPace 300",
-                                                                                            "serialNumber": "0796857466",
-                                                                                            "NotOntologise": "76698965",
-                                                                                            "manufacturerWebsite": "http://wikka.empa.ch",
-                                                                                            "receivedDate": "2017-03-04 00:00:00 +0000",
-                                                                                            "comments": "<p>Manufacturer: Pfeiffer Vacuum</p>"
-                                                                                        },
-                                                                                        {
-                                                                                            "@type": "UHVComponent",
-                                                                                            "name": "Turbo QPlus FEL",
-                                                                                            "type": "PUMP",
-                                                                                            "model": "HiPace 300",
-                                                                                            "serialNumber": "0796857466",
-                                                                                            "NotOntologise": "76698965",
-                                                                                            "manufacturerWebsite": "http://wikka.empa.ch",
-                                                                                            "receivedDate": "2017-03-04 00:00:00 +0000",
-                                                                                            "comments": "<p>Manufacturer: Pfeiffer Vacuum</p>"
-                                                                                        }
-                                                                                    ]
-                                                                                },
-                                                                                {
                                                                                     "@type": "Supplier",
                                                                                     "name": "Mateck"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "@type": "Instrument",
+                                                                            "name": "THz-STM/AFM",
+                                                                            "serialNumber": "CT-122037110-03",
+                                                                            "NotOntologise": "76698965",
+                                                                            "documentationWebsite": "http://wikka.empa.ch",
+                                                                            "receivedDate": "2021-12-08 00:00:00 +0000",
+                                                                            "comments": "<p>Manufacturer: Createc</p>",
+                                                                            "hasPart": [
+                                                                                {
+                                                                                    "@type": "Room",
+                                                                                    "name": "La037",
+                                                                                    "comments": null
+                                                                                },
+                                                                                {
+                                                                                    "@type": "UHVComponent",
+                                                                                    "name": "Ion Pump / TSP",
+                                                                                    "type": "PUMP",
+                                                                                    "model": "HiPace 300",
+                                                                                    "serialNumber": "0796857466",
+                                                                                    "NotOntologise": "76698965",
+                                                                                    "manufacturerWebsite": "http://wikka.empa.ch",
+                                                                                    "receivedDate": "2017-03-04 00:00:00 +0000",
+                                                                                    "comments": "<p>Manufacturer: Pfeiffer Vacuum</p>"
+                                                                                },
+                                                                                {
+                                                                                    "@type": "UHVComponent",
+                                                                                    "name": "Turbo QPlus FEL",
+                                                                                    "type": "PUMP",
+                                                                                    "model": "HiPace 300",
+                                                                                    "serialNumber": "0796857466",
+                                                                                    "NotOntologise": "76698965",
+                                                                                    "manufacturerWebsite": "http://wikka.empa.ch",
+                                                                                    "receivedDate": "2017-03-04 00:00:00 +0000",
+                                                                                    "comments": "<p>Manufacturer: Pfeiffer Vacuum</p>"
                                                                                 }
                                                                             ]
                                                                         }
@@ -905,46 +905,46 @@
                                                                                                                                     "face": "111"
                                                                                                                                 },
                                                                                                                                 {
-                                                                                                                                    "@type": "Instrument",
-                                                                                                                                    "name": "THz-STM/AFM",
-                                                                                                                                    "serialNumber": "CT-122037110-03",
-                                                                                                                                    "NotOntologise": "76698965",
-                                                                                                                                    "documentationWebsite": "http://wikka.empa.ch",
-                                                                                                                                    "receivedDate": "2021-12-08 00:00:00 +0000",
-                                                                                                                                    "comments": "<p>Manufacturer: Createc</p>",
-                                                                                                                                    "hasPart": [
-                                                                                                                                        {
-                                                                                                                                            "@type": "Room",
-                                                                                                                                            "name": "La037",
-                                                                                                                                            "comments": null
-                                                                                                                                        },
-                                                                                                                                        {
-                                                                                                                                            "@type": "UHVComponent",
-                                                                                                                                            "name": "Ion Pump / TSP",
-                                                                                                                                            "type": "PUMP",
-                                                                                                                                            "model": "HiPace 300",
-                                                                                                                                            "serialNumber": "0796857466",
-                                                                                                                                            "NotOntologise": "76698965",
-                                                                                                                                            "manufacturerWebsite": "http://wikka.empa.ch",
-                                                                                                                                            "receivedDate": "2017-03-04 00:00:00 +0000",
-                                                                                                                                            "comments": "<p>Manufacturer: Pfeiffer Vacuum</p>"
-                                                                                                                                        },
-                                                                                                                                        {
-                                                                                                                                            "@type": "UHVComponent",
-                                                                                                                                            "name": "Turbo QPlus FEL",
-                                                                                                                                            "type": "PUMP",
-                                                                                                                                            "model": "HiPace 300",
-                                                                                                                                            "serialNumber": "0796857466",
-                                                                                                                                            "NotOntologise": "76698965",
-                                                                                                                                            "manufacturerWebsite": "http://wikka.empa.ch",
-                                                                                                                                            "receivedDate": "2017-03-04 00:00:00 +0000",
-                                                                                                                                            "comments": "<p>Manufacturer: Pfeiffer Vacuum</p>"
-                                                                                                                                        }
-                                                                                                                                    ]
-                                                                                                                                },
-                                                                                                                                {
                                                                                                                                     "@type": "Supplier",
                                                                                                                                     "name": "Mateck"
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "@type": "Instrument",
+                                                                                                                            "name": "THz-STM/AFM",
+                                                                                                                            "serialNumber": "CT-122037110-03",
+                                                                                                                            "NotOntologise": "76698965",
+                                                                                                                            "documentationWebsite": "http://wikka.empa.ch",
+                                                                                                                            "receivedDate": "2021-12-08 00:00:00 +0000",
+                                                                                                                            "comments": "<p>Manufacturer: Createc</p>",
+                                                                                                                            "hasPart": [
+                                                                                                                                {
+                                                                                                                                    "@type": "Room",
+                                                                                                                                    "name": "La037",
+                                                                                                                                    "comments": null
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "@type": "UHVComponent",
+                                                                                                                                    "name": "Ion Pump / TSP",
+                                                                                                                                    "type": "PUMP",
+                                                                                                                                    "model": "HiPace 300",
+                                                                                                                                    "serialNumber": "0796857466",
+                                                                                                                                    "NotOntologise": "76698965",
+                                                                                                                                    "manufacturerWebsite": "http://wikka.empa.ch",
+                                                                                                                                    "receivedDate": "2017-03-04 00:00:00 +0000",
+                                                                                                                                    "comments": "<p>Manufacturer: Pfeiffer Vacuum</p>"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "@type": "UHVComponent",
+                                                                                                                                    "name": "Turbo QPlus FEL",
+                                                                                                                                    "type": "PUMP",
+                                                                                                                                    "model": "HiPace 300",
+                                                                                                                                    "serialNumber": "0796857466",
+                                                                                                                                    "NotOntologise": "76698965",
+                                                                                                                                    "manufacturerWebsite": "http://wikka.empa.ch",
+                                                                                                                                    "receivedDate": "2017-03-04 00:00:00 +0000",
+                                                                                                                                    "comments": "<p>Manufacturer: Pfeiffer Vacuum</p>"
                                                                                                                                 }
                                                                                                                             ]
                                                                                                                         }

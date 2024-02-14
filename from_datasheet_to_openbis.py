@@ -131,5 +131,3 @@ for openbis_object in all_openbis_objects:
                 
     except ValueError:
         print(f"{openbis_object['code']} already exists.")
-    
-    
