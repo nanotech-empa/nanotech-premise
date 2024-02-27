@@ -24,7 +24,7 @@ def log_in(bisurl='openbis', bisuser='admin', bispasswd='changeit'):
     return session
 
 #%% Import metadata schema
-metadata_schema_filename = "Metadata Schema_version3.xlsx"
+metadata_schema_filename = "Metadata_Schema_for_openBIS.xlsx"
 objects_metadata = pd.read_excel(metadata_schema_filename, sheet_name = "Metadata Schema")
 openbis_object_parameters = pd.read_excel(metadata_schema_filename, sheet_name = "openBIS - parameters")
 openbis_vocabularies = pd.read_excel(metadata_schema_filename, sheet_name = "openBIS - vocabulary")
@@ -91,7 +91,7 @@ for _, object_metadata_group in objects_metadata_groups:
                 openbis_object_dict["sections"]["general_information"].append(object_metadata["openBIS"])
     
     all_openbis_objects.append(openbis_object_dict)
-    
+
 #%% Connect to openBIS
 session = log_in(bisurl="localhost:8443/openbis", bisuser="admin", bispasswd="changeit")
 
