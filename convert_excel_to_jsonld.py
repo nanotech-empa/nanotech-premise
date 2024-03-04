@@ -229,13 +229,13 @@ def compute_jsonld_data(all_objects_relations, object_code_ontology_map, schema_
             object_metadata, context_jsonld = process_object_metadata(object_type, object_metadata, schema_ontology, context_jsonld)
             
             # Add relation to the JSON-LD context
-            # Ontologise objects (map it only if there is an IRI in the list)
-            relation_ontology = schema_ontology[schema_ontology["Entity"]==column]
+            # Ontologise relations (map it only if there is an IRI in the list)
+            relation_ontology = schema_ontology[schema_ontology["Entity"] == column]
             relation_iri = relation_ontology["IRI"].item()
             if is_nan(relation_iri):
                 pass
             else:
-                context_jsonld[object_type] = {"@id": relation_iri,
+                context_jsonld[column] = {"@id": relation_iri,
                                                "@type": "@id"}
                 
             object_metadata["parent-child relation"] = column
