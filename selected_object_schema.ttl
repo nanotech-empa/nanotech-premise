@@ -1,0 +1,271 @@
+@prefix ns1: <http://emmo.info/emmo#> .
+@prefix ns2: <http://purl.obolibrary.org/obo/> .
+@prefix ns3: <http://semanticscience.org/resource/> .
+@prefix ns4: <http://schema.org/> .
+@prefix ns5: <http://purl.allotrope.org/ontologies/equipment#> .
+@prefix ns6: <http://emmo.info/emmo/nanoind#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a schema:PublicationIssue ;
+    ns2:NCIT_C29848 2022 ;
+    ns2:NCIT_C71462 "https://doi.org/10.1038/s44160-022-00032-5"^^xsd:string ;
+    schema:Dataset [ ns1:EMMO_e1097637_70d2_4895_973f_2396f04fa204 [ schema:url "https://archive.materialscloud.org/record/2022.12"^^xsd:string ] ] ;
+    schema:abstract "Immobilization of organic molecules on metal surfaces and their coupling via thermally induced C–C bond formation is an important technique in organic and polymer synthesis. Using this approach, insoluble and reactive carbon nanostructures can be synthesized and the reactions monitored in situ using scanning probe microscopy methods. The diversity of conceivable products, however, is limited by the number and variety of known on-surface reactions. Here, we introduce the on-surface synthesis of polyarylenes by intermolecular oxidative coupling of isopropyl substituents of arenes. This [3+3] dimerization reaction forms a new phenylene ring and can be regarded as a formal cycloaromatization. The synthetic value of this reaction is proved by the synthesis of polyarylenes and co-polyarylenes, which we demonstrate by synthesizing poly(2,7-pyrenylene-1,4-phenylene). Scanning tunnelling microscopy and non-contact atomic force microscopy studies, complemented by density functional theory calculations, offer mechanistic insight into the on-surface cycloaromatization reaction."^^xsd:string ;
+    schema:hasPart [ a ns2:NCIT_C85255 ;
+            ns2:NCIT_C25284 "Preprint"^^xsd:string ;
+            schema:hasPart [ a ns1:EMMO_0f6f0120_c079_4d95_bb11_4ddee05e530e ;
+                    schema:hasPart [ a ns2:CHMO_0000132 ;
+                            ns2:NCIT_C69269 20.0 ;
+                            ns2:NCIT_C78441 "2022-08-11T08:06:27"^^xsd:dateTime ;
+                            ns4:comment "This recpie works, and we get much better sample quality."^^xsd:string ;
+                            schema:hasPart [ a ns2:CHMO_0001465 ;
+                                    ns2:NCIT_C25330 600.0 ;
+                                    schema:hasPart [ a ns2:CHMO_0001310 ;
+                                            ns1:EMMO_50a44256_9dc5_434b_bad4_74a4d9a29989 6e-08 ;
+                                            ns4:comment "Evaporator Slot 3. The PID values to get 25C were 25,27,5. The sample was heated at 0.65A, and the deposition was started 10 min after starting the sample hat. The smaple was kept such that the sample normal and the flux were parallel (180°). The shutter was opepend for 3 hours then closed."^^xsd:string ;
+                                            schema:hasPart [ a <file:///C:/Users/dafa/Documents/git/nanotech-premise/MoleculePrecursor> ;
+                                                    ns5:AFE_0000329 "i"^^xsd:string ;
+                                                    ns2:NCIT_C164590 "2201-01-01"^^xsd:date ;
+                                                    ns2:NCIT_C25256 "100 mg"^^xsd:string ;
+                                                    ns2:NCIT_C67073 "a"^^xsd:string ;
+                                                    ns2:NCIT_C73538 false ;
+                                                    ns2:NCIT_C96145 false ;
+                                                    schema:hasPart [ a ns2:NCIT_C43530 ;
+                                                            schema:name "Feng Group"^^xsd:string ],
+                                                        [ a ns2:NCIT_C63816 ;
+                                                            ns1:EMMO_16a3bd5c_75f0_42b3_b000_cb0d018f840e "6,12-dinaphthalen-2-ylchrysene"^^xsd:string ;
+                                                            ns1:EMMO_9236d0aa_cb39_43a1_bbdd_6a2a714951c8 "C38H24"^^xsd:string ;
+                                                            ns1:EMMO_d2a47cd8_662f_438f_855a_b4378eb992ff "663954-29-8"^^xsd:string ;
+                                                            ns3:CHEMINF_000018 "C1(C#C/C(C2=CC(C=CC=C3)=C3C=C2)=C(C#CC4=CC=CC=C4)\\C5=CC(C=CC=C6)=C6C=C5)=CC=CC=C1"^^xsd:string ;
+                                                            schema:name "Molecule 531a"^^xsd:string ] ;
+                                                    schema:name "Molecule 531a"^^xsd:string ],
+                                                [ a ns2:CHMO_0001465 ;
+                                                    ns1:EMMO_4f2d3939_91b1_4001_b8ab_7d19074bf845 20.4 ;
+                                                    ns1:EMMO_50a44256_9dc5_434b_bad4_74a4d9a29989 0.00235 ;
+                                                    ns1:EMMO_c995ae70_3b84_4ebb_bcfc_69e6a281bb88 1.15 ;
+                                                    ns2:NCIT_C25206 693.15 ;
+                                                    ns2:NCIT_C25330 900.0 ;
+                                                    schema:hasPart [ a ns2:CHMO_0001569 ;
+                                                            ns1:EMMO_4f2d3939_91b1_4001_b8ab_7d19074bf845 704.0 ;
+                                                            ns1:EMMO_50a44256_9dc5_434b_bad4_74a4d9a29989 0.00235 ;
+                                                            ns1:EMMO_c995ae70_3b84_4ebb_bcfc_69e6a281bb88 0.004 ;
+                                                            ns2:NCIT_C25330 600.0 ;
+                                                            schema:hasPart [ a <file:///C:/Users/dafa/Documents/git/nanotech-premise/CrystalMaterial> ;
+                                                                    ns6:EMMO_69c892cc-b9c4-53cd-8e5e-216c57e2592f "Mo068"^^xsd:string ;
+                                                                    ns2:NCIT_C164590 "2016-02-04"^^xsd:date ;
+                                                                    ns2:NCIT_C25285 0.009 ;
+                                                                    ns2:NCIT_C25347 0.0025 ;
+                                                                    ns2:NCIT_C73538 false ;
+                                                                    ns2:NCIT_C96145 false ;
+                                                                    ns2:NCIT_C99287 "19031510"^^xsd:string ;
+                                                                    ns3:SIO_000090 "plane-parallel, Pol. < 0.01 um, Or. < 0.1"^^xsd:string ;
+                                                                    schema:hasPart [ a ns1:EMMO_0bb3b434_73aa_428f_b4e8_2a2468648e19 ;
+                                                                            ns2:NCIT_C126364 "111"^^xsd:string ;
+                                                                            schema:material "Au"^^xsd:string ;
+                                                                            schema:name "Au111"^^xsd:string ],
+                                                                        [ a ns2:NCIT_C43530 ;
+                                                                            schema:name "Mateck"^^xsd:string ] ;
+                                                                    schema:name "Au111_Gino"^^xsd:string ],
+                                                                [ a ns2:NCIT_C16742 ;
+                                                                    ns2:NCIT_C164590 "2021-12-08"^^xsd:date ;
+                                                                    ns2:NCIT_C73518 "CT-122037110-03"^^xsd:string ;
+                                                                    ns2:NCIT_C93821 "http://wikka.empa.ch"^^xsd:string ;
+                                                                    schema:hasPart [ a <file:///C:/Users/dafa/Documents/git/nanotech-premise/UHVComponent> ;
+                                                                            ns2:NCIT_C164590 "2017-04-03"^^xsd:date ;
+                                                                            ns2:NCIT_C25284 "Pump"^^xsd:string ;
+                                                                            ns2:NCIT_C73518 "796857466"^^xsd:string ;
+                                                                            schema:hasPart [ a ns2:NCIT_C25392 ;
+                                                                                    schema:name "Pfeiffer Vacuum"^^xsd:string ] ;
+                                                                            schema:model "HiPace 300"^^xsd:string ;
+                                                                            schema:name "Ion Pump/TSP"^^xsd:string ],
+                                                                        [ a <file:///C:/Users/dafa/Documents/git/nanotech-premise/UHVComponent> ;
+                                                                            ns2:NCIT_C164590 "2017-04-03"^^xsd:date ;
+                                                                            ns2:NCIT_C25284 "Pump"^^xsd:string ;
+                                                                            ns2:NCIT_C73518 "796857466"^^xsd:string ;
+                                                                            schema:hasPart [ a ns2:NCIT_C25392 ;
+                                                                                    schema:name "Pfeiffer Vacuum"^^xsd:string ] ;
+                                                                            schema:model "HiPace 300"^^xsd:string ;
+                                                                            schema:name "Turbo Qplus FEL"^^xsd:string ],
+                                                                        [ a ns2:NCIT_C25392 ;
+                                                                            schema:name "Pfeiffer Vacuum"^^xsd:string ],
+                                                                        [ a schema:Room ;
+                                                                            schema:name "La037"^^xsd:string ] ;
+                                                                    schema:name "THz-STM/AFM"^^xsd:string ] ;
+                                                            schema:name "Sputtering 16008"^^xsd:string ] ;
+                                                    schema:name "Annealing 16008"^^xsd:string ] ;
+                                            schema:name "Deposition 16009"^^xsd:string ] ;
+                                    schema:name "Annealing 16008 Second"^^xsd:string ] ;
+                            schema:name "Bricklet 7 Trace Up STM"^^xsd:string ] ;
+                    schema:name "First Result"^^xsd:string ],
+                [ a ns1:EMMO_0f6f0120_c079_4d95_bb11_4ddee05e530e ;
+                    schema:hasPart [ a ns2:CHMO_0000113 ;
+                            ns2:NCIT_C78441 "2021-02-19T12:30:58"^^xsd:dateTime ;
+                            ns4:comment "Decent nc-AFM image obtained of a long polymer and its end. The end clearly shows the propenyl group. The reaction therefore is going as predicted."^^xsd:string ;
+                            schema:hasPart [ a ns2:CHMO_0001465 ;
+                                    schema:hasPart [ a ns2:CHMO_0001310 ;
+                                            ns1:EMMO_50a44256_9dc5_434b_bad4_74a4d9a29989 4e-08 ;
+                                            ns4:comment "The sample was kept at 135° and the shutter was open for 10 hrs. The molecule was not heated, but the temperature rose from 19.3 to 20°. Substrate Temperature: (PM:0.6A 12V)235°C"^^xsd:string ;
+                                            schema:hasPart [ a <file:///C:/Users/dafa/Documents/git/nanotech-premise/MoleculePrecursor> ;
+                                                    ns5:AFE_0000329 "i"^^xsd:string ;
+                                                    ns2:NCIT_C164590 "2201-01-01"^^xsd:date ;
+                                                    ns2:NCIT_C25256 "100 mg"^^xsd:string ;
+                                                    ns2:NCIT_C67073 "a"^^xsd:string ;
+                                                    ns2:NCIT_C73538 false ;
+                                                    ns2:NCIT_C96145 false ;
+                                                    schema:hasPart [ a ns2:NCIT_C63816 ;
+                                                            ns1:EMMO_16a3bd5c_75f0_42b3_b000_cb0d018f840e "6,12-dinaphthalen-2-ylchrysene"^^xsd:string ;
+                                                            ns1:EMMO_9236d0aa_cb39_43a1_bbdd_6a2a714951c8 "C38H24"^^xsd:string ;
+                                                            ns1:EMMO_d2a47cd8_662f_438f_855a_b4378eb992ff "663954-29-8"^^xsd:string ;
+                                                            ns3:CHEMINF_000018 "C1(C#C/C(C2=CC(C=CC=C3)=C3C=C2)=C(C#CC4=CC=CC=C4)\\C5=CC(C=CC=C6)=C6C=C5)=CC=CC=C1"^^xsd:string ;
+                                                            schema:name "Molecule 531a"^^xsd:string ],
+                                                        [ a ns2:NCIT_C43530 ;
+                                                            schema:name "Feng Group"^^xsd:string ] ;
+                                                    schema:name "Molecule 531a"^^xsd:string ],
+                                                [ a ns2:CHMO_0001465 ;
+                                                    ns2:NCIT_C25330 3600.0 ;
+                                                    ns4:comment "Annealled to 1.13A for approximately 1 hour till pressure awas in mid E-9 mbar range."^^xsd:string ;
+                                                    schema:hasPart [ a ns2:CHMO_0001569 ;
+                                                            ns1:EMMO_4f2d3939_91b1_4001_b8ab_7d19074bf845 720.0 ;
+                                                            ns1:EMMO_50a44256_9dc5_434b_bad4_74a4d9a29989 0.0023 ;
+                                                            ns1:EMMO_c995ae70_3b84_4ebb_bcfc_69e6a281bb88 0.004 ;
+                                                            ns2:NCIT_C25330 600.0 ;
+                                                            schema:hasPart [ a ns2:CHMO_0001465 ;
+                                                                    ns4:comment "Annealled gradually to minimise degasing up to 1.0A current."^^xsd:string ;
+                                                                    schema:hasPart [ a ns2:CHMO_0001569 ;
+                                                                            ns1:EMMO_4f2d3939_91b1_4001_b8ab_7d19074bf845 704.0 ;
+                                                                            ns1:EMMO_50a44256_9dc5_434b_bad4_74a4d9a29989 0.0024 ;
+                                                                            ns1:EMMO_c995ae70_3b84_4ebb_bcfc_69e6a281bb88 0.004 ;
+                                                                            ns2:NCIT_C25330 1200.0 ;
+                                                                            schema:hasPart [ a ns2:CHMO_0001465 ;
+                                                                                    ns2:NCIT_C25330 600.0 ;
+                                                                                    schema:hasPart [ a ns2:CHMO_0001310 ;
+                                                                                            ns1:EMMO_50a44256_9dc5_434b_bad4_74a4d9a29989 6e-08 ;
+                                                                                            ns4:comment "Evaporator Slot 3. The PID values to get 25C were 25,27,5. The sample was heated at 0.65A, and the deposition was started 10 min after starting the sample hat. The smaple was kept such that the sample normal and the flux were parallel (180°). The shutter was opepend for 3 hours then closed."^^xsd:string ;
+                                                                                            schema:hasPart [ a <file:///C:/Users/dafa/Documents/git/nanotech-premise/MoleculePrecursor> ;
+                                                                                                    ns5:AFE_0000329 "i"^^xsd:string ;
+                                                                                                    ns2:NCIT_C164590 "2201-01-01"^^xsd:date ;
+                                                                                                    ns2:NCIT_C25256 "100 mg"^^xsd:string ;
+                                                                                                    ns2:NCIT_C67073 "a"^^xsd:string ;
+                                                                                                    ns2:NCIT_C73538 false ;
+                                                                                                    ns2:NCIT_C96145 false ;
+                                                                                                    schema:hasPart [ a ns2:NCIT_C43530 ;
+                                                                                                            schema:name "Feng Group"^^xsd:string ],
+                                                                                                        [ a ns2:NCIT_C63816 ;
+                                                                                                            ns1:EMMO_16a3bd5c_75f0_42b3_b000_cb0d018f840e "6,12-dinaphthalen-2-ylchrysene"^^xsd:string ;
+                                                                                                            ns1:EMMO_9236d0aa_cb39_43a1_bbdd_6a2a714951c8 "C38H24"^^xsd:string ;
+                                                                                                            ns1:EMMO_d2a47cd8_662f_438f_855a_b4378eb992ff "663954-29-8"^^xsd:string ;
+                                                                                                            ns3:CHEMINF_000018 "C1(C#C/C(C2=CC(C=CC=C3)=C3C=C2)=C(C#CC4=CC=CC=C4)\\C5=CC(C=CC=C6)=C6C=C5)=CC=CC=C1"^^xsd:string ;
+                                                                                                            schema:name "Molecule 531a"^^xsd:string ] ;
+                                                                                                    schema:name "Molecule 531a"^^xsd:string ],
+                                                                                                [ a ns2:CHMO_0001465 ;
+                                                                                                    ns1:EMMO_4f2d3939_91b1_4001_b8ab_7d19074bf845 20.4 ;
+                                                                                                    ns1:EMMO_50a44256_9dc5_434b_bad4_74a4d9a29989 0.00235 ;
+                                                                                                    ns1:EMMO_c995ae70_3b84_4ebb_bcfc_69e6a281bb88 1.15 ;
+                                                                                                    ns2:NCIT_C25206 693.15 ;
+                                                                                                    ns2:NCIT_C25330 900.0 ;
+                                                                                                    schema:hasPart [ a ns2:CHMO_0001569 ;
+                                                                                                            ns1:EMMO_4f2d3939_91b1_4001_b8ab_7d19074bf845 704.0 ;
+                                                                                                            ns1:EMMO_50a44256_9dc5_434b_bad4_74a4d9a29989 0.00235 ;
+                                                                                                            ns1:EMMO_c995ae70_3b84_4ebb_bcfc_69e6a281bb88 0.004 ;
+                                                                                                            ns2:NCIT_C25330 600.0 ;
+                                                                                                            schema:hasPart [ a <file:///C:/Users/dafa/Documents/git/nanotech-premise/CrystalMaterial> ;
+                                                                                                                    ns6:EMMO_69c892cc-b9c4-53cd-8e5e-216c57e2592f "Mo068"^^xsd:string ;
+                                                                                                                    ns2:NCIT_C164590 "2016-02-04"^^xsd:date ;
+                                                                                                                    ns2:NCIT_C25285 0.009 ;
+                                                                                                                    ns2:NCIT_C25347 0.0025 ;
+                                                                                                                    ns2:NCIT_C73538 false ;
+                                                                                                                    ns2:NCIT_C96145 false ;
+                                                                                                                    ns2:NCIT_C99287 "19031510"^^xsd:string ;
+                                                                                                                    ns3:SIO_000090 "plane-parallel, Pol. < 0.01 um, Or. < 0.1"^^xsd:string ;
+                                                                                                                    schema:hasPart [ a ns2:NCIT_C43530 ;
+                                                                                                                            schema:name "Mateck"^^xsd:string ],
+                                                                                                                        [ a ns1:EMMO_0bb3b434_73aa_428f_b4e8_2a2468648e19 ;
+                                                                                                                            ns2:NCIT_C126364 "111"^^xsd:string ;
+                                                                                                                            schema:material "Au"^^xsd:string ;
+                                                                                                                            schema:name "Au111"^^xsd:string ] ;
+                                                                                                                    schema:name "Au111_Gino"^^xsd:string ],
+                                                                                                                [ a ns2:NCIT_C16742 ;
+                                                                                                                    ns2:NCIT_C164590 "2021-12-08"^^xsd:date ;
+                                                                                                                    ns2:NCIT_C73518 "CT-122037110-03"^^xsd:string ;
+                                                                                                                    ns2:NCIT_C93821 "http://wikka.empa.ch"^^xsd:string ;
+                                                                                                                    schema:hasPart [ a <file:///C:/Users/dafa/Documents/git/nanotech-premise/UHVComponent> ;
+                                                                                                                            ns2:NCIT_C164590 "2017-04-03"^^xsd:date ;
+                                                                                                                            ns2:NCIT_C25284 "Pump"^^xsd:string ;
+                                                                                                                            ns2:NCIT_C73518 "796857466"^^xsd:string ;
+                                                                                                                            schema:hasPart [ a ns2:NCIT_C25392 ;
+                                                                                                                                    schema:name "Pfeiffer Vacuum"^^xsd:string ] ;
+                                                                                                                            schema:model "HiPace 300"^^xsd:string ;
+                                                                                                                            schema:name "Ion Pump/TSP"^^xsd:string ],
+                                                                                                                        [ a schema:Room ;
+                                                                                                                            schema:name "La037"^^xsd:string ],
+                                                                                                                        [ a <file:///C:/Users/dafa/Documents/git/nanotech-premise/UHVComponent> ;
+                                                                                                                            ns2:NCIT_C164590 "2017-04-03"^^xsd:date ;
+                                                                                                                            ns2:NCIT_C25284 "Pump"^^xsd:string ;
+                                                                                                                            ns2:NCIT_C73518 "796857466"^^xsd:string ;
+                                                                                                                            schema:hasPart [ a ns2:NCIT_C25392 ;
+                                                                                                                                    schema:name "Pfeiffer Vacuum"^^xsd:string ] ;
+                                                                                                                            schema:model "HiPace 300"^^xsd:string ;
+                                                                                                                            schema:name "Turbo Qplus FEL"^^xsd:string ],
+                                                                                                                        [ a ns2:NCIT_C25392 ;
+                                                                                                                            schema:name "Pfeiffer Vacuum"^^xsd:string ] ;
+                                                                                                                    schema:name "THz-STM/AFM"^^xsd:string ] ;
+                                                                                                            schema:name "Sputtering 16008"^^xsd:string ] ;
+                                                                                                    schema:name "Annealing 16008"^^xsd:string ] ;
+                                                                                            schema:name "Deposition 16009"^^xsd:string ] ;
+                                                                                    schema:name "Annealing 16008 Second"^^xsd:string ] ;
+                                                                            schema:name "Sputtering 16013"^^xsd:string ] ;
+                                                                    schema:name "Annealing 16013"^^xsd:string ] ;
+                                                            schema:name "Sputtering 16013 Second"^^xsd:string ] ;
+                                                    schema:name "Annealing 16013 Second"^^xsd:string ] ;
+                                            schema:name "Deposition 16020"^^xsd:string ] ;
+                                    schema:name "Annealing 16013 Third"^^xsd:string ] ;
+                            schema:name "Bricklet 274 Traceup AFM"^^xsd:string ] ;
+                    schema:name "Second Result"^^xsd:string ] ;
+            schema:name "On-surface polyarylene synthesis by cycloaromatization of isopropyl substituents"^^xsd:string ],
+        [ a ns2:NCIT_C42781 ;
+            schema:hasPart [ a schema:Person ;
+                    ns2:NCIT_C42694 "faro"^^xsd:string ;
+                    ns2:OPMI_0000122 "Active"^^xsd:string ;
+                    ns3:SIO_001324 "41587654348"^^xsd:string ;
+                    schema:email "roman.fasel@empa.ch"^^xsd:string ;
+                    schema:name "Roman Fasel"^^xsd:string ],
+                [ a ns2:NCIT_C41206 ;
+                    schema:address "Ueberlandstrasse 129, 8600 Dübendorf"^^xsd:string ;
+                    schema:name "Empa, Swiss Federal Laboratories for Materials Science and Technology, Dubendorf, Switzerland"^^xsd:string ],
+                [ a ns2:NCIT_C41206 ;
+                    schema:address "Freiestrasse 3, 3012 Bern"^^xsd:string ;
+                    schema:name "Department of Chemistry, Biochemistry and Pharmaceutical Sciences, University of Bern, Bern, Switzerland"^^xsd:string ] ;
+            schema:name "Roman Fasel"^^xsd:string ],
+        [ a ns2:NCIT_C42781 ;
+            schema:hasPart [ a ns2:NCIT_C41206 ;
+                    schema:address "Ueberlandstrasse 129, 8600 Dübendorf"^^xsd:string ;
+                    schema:name "Empa, Swiss Federal Laboratories for Materials Science and Technology, Dubendorf, Switzerland"^^xsd:string ],
+                [ a schema:Person ;
+                    ns2:NCIT_C42694 "rupa"^^xsd:string ;
+                    ns2:OPMI_0000122 "Active"^^xsd:string ;
+                    ns3:SIO_001324 "41587654693"^^xsd:string ;
+                    schema:email "pascal.ruffieux@empa.ch"^^xsd:string ;
+                    schema:name "Pascal Ruffieux"^^xsd:string ] ;
+            schema:name "Pascal Ruffieux"^^xsd:string ],
+        [ a ns2:NCIT_C42781 ;
+            schema:hasPart [ a schema:Person ;
+                    ns2:NCIT_C42694 "pica"^^xsd:string ;
+                    ns2:OPMI_0000122 "Active"^^xsd:string ;
+                    ns3:SIO_001324 "41587654206"^^xsd:string ;
+                    schema:email "carlo.pignedoli@empa.ch"^^xsd:string ;
+                    schema:name "Carlo A. Pignedoli"^^xsd:string ],
+                [ a ns2:NCIT_C41206 ;
+                    schema:address "Ueberlandstrasse 129, 8600 Dübendorf"^^xsd:string ;
+                    schema:name "Empa, Swiss Federal Laboratories for Materials Science and Technology, Dubendorf, Switzerland"^^xsd:string ] ;
+            schema:name "Carlo A. Pignedoli"^^xsd:string ],
+        [ a schema:Grant ;
+            ns2:NCIT_C60757 1000000.0 ;
+            schema:currency "CHF"^^xsd:string ;
+            schema:endDate "2026-01-04"^^xsd:date ;
+            schema:funder "SNF"^^xsd:string ;
+            schema:name "CHICRESCE"^^xsd:string ;
+            schema:startDate "2023-01-04"^^xsd:date ] ;
+    schema:name "On-surface polyarylene synthesis by cycloaromatisation of isopropyl substituents"^^xsd:string ;
+    schema:url "https://www.nature.com/articles/s44160-022-00032-5"^^xsd:string .
+

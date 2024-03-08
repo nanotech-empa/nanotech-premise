@@ -1,0 +1,1056 @@
+{
+    "@context": {
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "name": {
+            "@id": "https://schema.org/name",
+            "@type": "xsd:string"
+        },
+        "abstract": {
+            "@id": "https://schema.org/abstract",
+            "@type": "xsd:string"
+        },
+        "doi": {
+            "@id": "http://purl.obolibrary.org/obo/NCIT_C71462",
+            "@type": "xsd:string"
+        },
+        "year": {
+            "@id": "http://purl.obolibrary.org/obo/NCIT_C29848",
+            "@type": "xsd:integer"
+        },
+        "url": {
+            "@id": "https://schema.org/url",
+            "@type": "xsd:string"
+        },
+        "Dataset": {
+            "@id": "https://schema.org/Dataset",
+            "@type": "@id"
+        },
+        "hasProperty": {
+            "@id": "http://emmo.info/emmo#EMMO_e1097637_70d2_4895_973f_2396f04fa204",
+            "@type": "@id"
+        },
+        "comments": {
+            "@id": "http://schema.org/comment",
+            "@type": "xsd:string"
+        },
+        "Publication": {
+            "@id": "https://schema.org/PublicationIssue",
+            "@type": "@id"
+        },
+        "Author": {
+            "@id": "http://purl.obolibrary.org/obo/NCIT_C42781",
+            "@type": "@id"
+        },
+        "hasPart": {
+            "@id": "https://schema.org/hasPart",
+            "@type": "@id"
+        },
+        "username": {
+            "@id": "http://purl.obolibrary.org/obo/NCIT_C42694",
+            "@type": "xsd:string"
+        },
+        "workStatus": {
+            "@id": "http://purl.obolibrary.org/obo/OPMI_0000122",
+            "@type": "xsd:string"
+        },
+        "email": {
+            "@id": "https://schema.org/email",
+            "@type": "xsd:string"
+        },
+        "workPhone": {
+            "@id": "http://semanticscience.org/resource/SIO_001324",
+            "@type": "xsd:string"
+        },
+        "mobilePhone": {
+            "@id": "http://purl.obolibrary.org/obo/NCIT_C98193",
+            "@type": "xsd:string"
+        },
+        "Person": {
+            "@id": "https://schema.org/Person",
+            "@type": "@id"
+        },
+        "description": {
+            "@id": "https://schema.org/description",
+            "@type": "xsd:string"
+        },
+        "address": {
+            "@id": "https://schema.org/address",
+            "@type": "xsd:string"
+        },
+        "Institution": {
+            "@id": "http://purl.obolibrary.org/obo/NCIT_C41206",
+            "@type": "@id"
+        },
+        "type": {
+            "@id": "http://purl.obolibrary.org/obo/NCIT_C25284",
+            "@type": "xsd:string"
+        },
+        "Draft": {
+            "@id": "http://purl.obolibrary.org/obo/NCIT_C85255",
+            "@type": "@id"
+        },
+        "Result": {
+            "@id": "http://emmo.info/emmo#EMMO_0f6f0120_c079_4d95_bb11_4ddee05e530e",
+            "@type": "@id"
+        },
+        "recordingTime": {
+            "@id": "http://purl.obolibrary.org/obo/NCIT_C78441",
+            "@type": "xsd:dateTime"
+        },
+        "acquisitionTime": {
+            "@id": "http://purl.obolibrary.org/obo/NCIT_C69269",
+            "@type": "xsd:decimal"
+        },
+        "dwellTime": {
+            "@id": "http://purl.obolibrary.org/obo/MS_1000502",
+            "@type": "xsd:decimal"
+        },
+        "STM": {
+            "@id": "http://purl.obolibrary.org/obo/CHMO_0000132",
+            "@type": "@id"
+        },
+        "duration": {
+            "@id": "http://purl.obolibrary.org/obo/NCIT_C25330",
+            "@type": "xsd:decimal"
+        },
+        "pressure": {
+            "@id": "http://emmo.info/emmo#EMMO_50a44256_9dc5_434b_bad4_74a4d9a29989",
+            "@type": "xsd:decimal"
+        },
+        "voltage": {
+            "@id": "http://emmo.info/emmo#EMMO_4f2d3939_91b1_4001_b8ab_7d19074bf845",
+            "@type": "xsd:decimal"
+        },
+        "temperature": {
+            "@id": "http://purl.obolibrary.org/obo/NCIT_C25206",
+            "@type": "xsd:decimal"
+        },
+        "angle": {
+            "@id": "http://emmo.info/emmo#EMMO_f3dd74c0_f480_49e8_9764_33b78638c235",
+            "@type": "xsd:decimal"
+        },
+        "current": {
+            "@id": "http://emmo.info/emmo#EMMO_c995ae70_3b84_4ebb_bcfc_69e6a281bb88",
+            "@type": "xsd:decimal"
+        },
+        "Annealing": {
+            "@id": "http://purl.obolibrary.org/obo/CHMO_0001465",
+            "@type": "@id"
+        },
+        "Deposition": {
+            "@id": "http://purl.obolibrary.org/obo/CHMO_0001310",
+            "@type": "@id"
+        },
+        "batch": {
+            "@id": "http://purl.obolibrary.org/obo/NCIT_C67073",
+            "@type": "xsd:string"
+        },
+        "vial": {
+            "@id": "http://purl.allotrope.org/ontologies/equipment#AFE_0000329",
+            "@type": "xsd:string"
+        },
+        "hazardous": {
+            "@id": "http://purl.obolibrary.org/obo/NCIT_C73538",
+            "@type": "xsd:boolean"
+        },
+        "otherStorageCondition": {
+            "@id": "http://purl.obolibrary.org/obo/NCIT_C96145",
+            "@type": "xsd:boolean"
+        },
+        "amount": {
+            "@id": "http://purl.obolibrary.org/obo/NCIT_C25256",
+            "@type": "xsd:string"
+        },
+        "receivedDate": {
+            "@id": "http://purl.obolibrary.org/obo/NCIT_C164590",
+            "@type": "xsd:date"
+        },
+        "Supplier": {
+            "@id": "http://purl.obolibrary.org/obo/NCIT_C43530",
+            "@type": "@id"
+        },
+        "iupacName": {
+            "@id": "http://emmo.info/emmo#EMMO_16a3bd5c_75f0_42b3_b000_cb0d018f840e",
+            "@type": "xsd:string"
+        },
+        "sumFormula": {
+            "@id": "http://emmo.info/emmo#EMMO_9236d0aa_cb39_43a1_bbdd_6a2a714951c8",
+            "@type": "xsd:string"
+        },
+        "smiles": {
+            "@id": "http://semanticscience.org/resource/CHEMINF_000018",
+            "@type": "xsd:string"
+        },
+        "casNumber": {
+            "@id": "http://emmo.info/emmo#EMMO_d2a47cd8_662f_438f_855a_b4378eb992ff",
+            "@type": "xsd:string"
+        },
+        "Molecule": {
+            "@id": "http://purl.obolibrary.org/obo/NCIT_C63816",
+            "@type": "@id"
+        },
+        "Sputtering": {
+            "@id": "http://purl.obolibrary.org/obo/CHMO_0001569",
+            "@type": "@id"
+        },
+        "serialNumber": {
+            "@id": "http://purl.obolibrary.org/obo/NCIT_C73518",
+            "@type": "xsd:string"
+        },
+        "documentationWebsite": {
+            "@id": "http://purl.obolibrary.org/obo/NCIT_C93821",
+            "@type": "xsd:string"
+        },
+        "Instrument": {
+            "@id": "http://purl.obolibrary.org/obo/NCIT_C16742",
+            "@type": "@id"
+        },
+        "model": {
+            "@id": "https://schema.org/model",
+            "@type": "xsd:string"
+        },
+        "Manufacturer": {
+            "@id": "http://purl.obolibrary.org/obo/NCIT_C25392",
+            "@type": "@id"
+        },
+        "Room": {
+            "@id": "https://schema.org/Room",
+            "@type": "@id"
+        },
+        "samplePlate": {
+            "@id": "http://emmo.info/emmo/nanoind#EMMO_69c892cc-b9c4-53cd-8e5e-216c57e2592f",
+            "@type": "xsd:string"
+        },
+        "diameter": {
+            "@id": "http://purl.obolibrary.org/obo/NCIT_C25285",
+            "@type": "xsd:decimal"
+        },
+        "height": {
+            "@id": "http://purl.obolibrary.org/obo/NCIT_C25347",
+            "@type": "xsd:decimal"
+        },
+        "specifications": {
+            "@id": "http://semanticscience.org/resource/SIO_000090",
+            "@type": "xsd:string"
+        },
+        "referenceNumber": {
+            "@id": "http://purl.obolibrary.org/obo/NCIT_C99287",
+            "@type": "xsd:string"
+        },
+        "material": {
+            "@id": "https://schema.org/material",
+            "@type": "xsd:string"
+        },
+        "face": {
+            "@id": "http://purl.obolibrary.org/obo/NCIT_C126364",
+            "@type": "xsd:string"
+        },
+        "Crystal": {
+            "@id": "http://emmo.info/emmo#EMMO_0bb3b434_73aa_428f_b4e8_2a2468648e19",
+            "@type": "@id"
+        },
+        "AFM": {
+            "@id": "http://purl.obolibrary.org/obo/CHMO_0000113",
+            "@type": "@id"
+        },
+        "funder": {
+            "@id": "https://schema.org/funder",
+            "@type": "xsd:string"
+        },
+        "startDate": {
+            "@id": "https://schema.org/startDate",
+            "@type": "xsd:date"
+        },
+        "endDate": {
+            "@id": "https://schema.org/endDate",
+            "@type": "xsd:date"
+        },
+        "budget": {
+            "@id": "http://purl.obolibrary.org/obo/NCIT_C60757",
+            "@type": "xsd:decimal"
+        },
+        "currency": {
+            "@id": "https://schema.org/currency",
+            "@type": "xsd:string"
+        },
+        "projectId": {
+            "@id": "http://purl.obolibrary.org/obo/NCIT_C165055",
+            "@type": "xsd:string"
+        },
+        "acknowledgement": {
+            "@id": "http://purl.obolibrary.org/obo/IAO_0000324",
+            "@type": "xsd:string"
+        },
+        "Grant": {
+            "@id": "https://schema.org/Grant",
+            "@type": "@id"
+        }
+    },
+    "@graph": {
+        "name": "On-surface polyarylene synthesis by cycloaromatisation of isopropyl substituents",
+        "abstract": "Immobilization of organic molecules on metal surfaces and their coupling via thermally induced C\u2013C bond formation is an important technique in organic and polymer synthesis. Using this approach, insoluble and reactive carbon nanostructures can be synthesized and the reactions monitored in situ using scanning probe microscopy methods. The diversity of conceivable products, however, is limited by the number and variety of known on-surface reactions. Here, we introduce the on-surface synthesis of polyarylenes by intermolecular oxidative coupling of isopropyl substituents of arenes. This [3+3] dimerization reaction forms a new phenylene ring and can be regarded as a formal cycloaromatization. The synthetic value of this reaction is proved by the synthesis of polyarylenes and co-polyarylenes, which we demonstrate by synthesizing poly(2,7-pyrenylene-1,4-phenylene). Scanning tunnelling microscopy and non-contact atomic force microscopy studies, complemented by density functional theory calculations, offer mechanistic insight into the on-surface cycloaromatization reaction.",
+        "doi": "https://doi.org/10.1038/s44160-022-00032-5",
+        "year": 2022,
+        "url": "https://www.nature.com/articles/s44160-022-00032-5",
+        "comments": null,
+        "Dataset": {
+            "hasProperty": {
+                "url": "https://archive.materialscloud.org/record/2022.12"
+            }
+        },
+        "@type": "Publication",
+        "hasPart": [
+            {
+                "name": "Carlo A. Pignedoli",
+                "@type": "Author",
+                "hasPart": [
+                    {
+                        "name": "Carlo A. Pignedoli",
+                        "username": "pica",
+                        "workStatus": "Active",
+                        "email": "carlo.pignedoli@empa.ch",
+                        "workPhone": 41587654206,
+                        "mobilePhone": null,
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Empa, Swiss Federal Laboratories for Materials Science and Technology, Dubendorf, Switzerland",
+                        "description": null,
+                        "address": "Ueberlandstrasse 129, 8600 D\u00fcbendorf",
+                        "@type": "Institution"
+                    }
+                ]
+            },
+            {
+                "name": "Roman Fasel",
+                "@type": "Author",
+                "hasPart": [
+                    {
+                        "name": "Empa, Swiss Federal Laboratories for Materials Science and Technology, Dubendorf, Switzerland",
+                        "description": null,
+                        "address": "Ueberlandstrasse 129, 8600 D\u00fcbendorf",
+                        "@type": "Institution"
+                    },
+                    {
+                        "name": "Roman Fasel",
+                        "username": "faro",
+                        "workStatus": "Active",
+                        "email": "roman.fasel@empa.ch",
+                        "workPhone": 41587654348,
+                        "mobilePhone": null,
+                        "@type": "Person"
+                    },
+                    {
+                        "name": "Department of Chemistry, Biochemistry and Pharmaceutical Sciences, University of Bern, Bern, Switzerland",
+                        "description": null,
+                        "address": "Freiestrasse 3, 3012 Bern",
+                        "@type": "Institution"
+                    }
+                ]
+            },
+            {
+                "name": "Pascal Ruffieux",
+                "@type": "Author",
+                "hasPart": [
+                    {
+                        "name": "Empa, Swiss Federal Laboratories for Materials Science and Technology, Dubendorf, Switzerland",
+                        "description": null,
+                        "address": "Ueberlandstrasse 129, 8600 D\u00fcbendorf",
+                        "@type": "Institution"
+                    },
+                    {
+                        "name": "Pascal Ruffieux",
+                        "username": "rupa",
+                        "workStatus": "Active",
+                        "email": "pascal.ruffieux@empa.ch",
+                        "workPhone": 41587654693,
+                        "mobilePhone": null,
+                        "@type": "Person"
+                    }
+                ]
+            },
+            {
+                "name": "On-surface polyarylene synthesis by cycloaromatization of isopropyl substituents",
+                "type": "Preprint",
+                "comments": null,
+                "@type": "Draft",
+                "hasPart": [
+                    {
+                        "name": "First Result",
+                        "description": null,
+                        "comments": null,
+                        "@type": "Result",
+                        "hasPart": [
+                            {
+                                "name": "Bricklet 7 Trace Up STM",
+                                "recordingTime": "2022-08-11T08:06:27",
+                                "acquisitionTime": 20,
+                                "biasSetpoint": 0.7,
+                                "biasCalibrationFactor": 1,
+                                "biasCalibrationOffset": -8e-05,
+                                "currentSetpoint": 4.99822e-11,
+                                "currentCalibrationFactor": 1e-09,
+                                "currentCalibrationOffset": -2.01468e-13,
+                                "currentGain": 1000000000,
+                                "z": -6.10757e-08,
+                                "feedbackActive": true,
+                                "feedbackType": null,
+                                "zControllerSetpoint": null,
+                                "zControllerPGain": null,
+                                "zControllerIGain": null,
+                                "zControllerTimeConst": null,
+                                "zControllerTipLift": null,
+                                "zControllerSwitchOffDelay": null,
+                                "piezoActiveCalib": null,
+                                "piezoSensitivityX": null,
+                                "piezoSensitivityY": null,
+                                "piezoSensitivityZ": null,
+                                "piezoHVGainX": null,
+                                "piezoHVGainY": null,
+                                "piezoHVGainZ": null,
+                                "scanSlopeX": null,
+                                "scanSlopeY": null,
+                                "piezoCurvatureRadiusX": null,
+                                "piezoCurvatureRadiusY": null,
+                                "piezo2ndOrderCorrectionX": null,
+                                "piezo2ndOrderCorrectionY": null,
+                                "piezoDriftX": null,
+                                "piezoDriftY": null,
+                                "piezoDriftZ": null,
+                                "piezoDriftCorrectionStatus": null,
+                                "scanField": null,
+                                "scanAngle": null,
+                                "scanOffsetX": null,
+                                "scanOffsetY": null,
+                                "scanTimeX": null,
+                                "scanTimeY": null,
+                                "scanRangeX": null,
+                                "scanRangeY": null,
+                                "scanPixelsX": null,
+                                "scanPixelsY": null,
+                                "scanSpeedForward": null,
+                                "scanSpeedBackwards": null,
+                                "scanDirection": null,
+                                "dwellTime": null,
+                                "sampleTemperature": null,
+                                "recordingTemperature": null,
+                                "eMin": null,
+                                "eMax": null,
+                                "dE": null,
+                                "FWHM": null,
+                                "extrapPlane": null,
+                                "constantHeight": null,
+                                "constantCurrent": null,
+                                "pTipRatio": null,
+                                "comments": "This recpie works, and we get much better sample quality.",
+                                "@type": "STM",
+                                "hasPart": [
+                                    {
+                                        "name": "Annealing 16008 Second",
+                                        "duration": 600.0,
+                                        "pressure": null,
+                                        "dischargeVoltage": null,
+                                        "voltage": null,
+                                        "temperature": null,
+                                        "angle": null,
+                                        "current": null,
+                                        "comments": null,
+                                        "@type": "Annealing",
+                                        "hasPart": [
+                                            {
+                                                "name": "Deposition 16009",
+                                                "stabilisationTime": 0,
+                                                "depositionTime": 10800,
+                                                "pressure": 6e-08,
+                                                "substrateTemperature": 528,
+                                                "moleculeTemperature": 298,
+                                                "evaporatorSlot": 3,
+                                                "comments": "Evaporator Slot 3.\u00a0The PID values to get 25C were 25,27,5. The sample was heated at 0.65A, and the deposition was started 10 min after starting the sample hat. The smaple was kept such that the sample normal and the flux were parallel (180\u00b0). The shutter was opepend for 3 hours then closed.",
+                                                "@type": "Deposition",
+                                                "hasPart": [
+                                                    {
+                                                        "name": "Molecule 531a",
+                                                        "empaNumber": 531,
+                                                        "batch": "a",
+                                                        "vial": "i",
+                                                        "hazardous": false,
+                                                        "hazardousSpecification": null,
+                                                        "evaporationTemperatures": "SRD, 234, 6/2/2021, 12:33:02; 6-Fold LT, 250, 23/10/2021, 16:12:22",
+                                                        "fridge": true,
+                                                        "noLight": false,
+                                                        "dry": false,
+                                                        "noOxygen": false,
+                                                        "otherStorageCondition": false,
+                                                        "otherStorageConditionSpecification": null,
+                                                        "chemistMoleculeName": "QC76820",
+                                                        "amount": "100 mg",
+                                                        "receivedDate": "22/08/2021",
+                                                        "comments": null,
+                                                        "@type": "MoleculePrecursor",
+                                                        "hasPart": [
+                                                            {
+                                                                "name": "Feng Group",
+                                                                "email": null,
+                                                                "workPhone": null,
+                                                                "address": null,
+                                                                "@type": "Supplier"
+                                                            },
+                                                            {
+                                                                "name": "Molecule 531a",
+                                                                "iupacName": "6,12-dinaphthalen-2-ylchrysene",
+                                                                "sumFormula": "C38H24",
+                                                                "smiles": "C1(C#C/C(C2=CC(C=CC=C3)=C3C=C2)=C(C#CC4=CC=CC=C4)\\C5=CC(C=CC=C6)=C6C=C5)=CC=CC=C1",
+                                                                "casNumber": "663954-29-8",
+                                                                "@type": "Molecule"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "Annealing 16008",
+                                                        "duration": 900.0,
+                                                        "pressure": 0.00235,
+                                                        "dischargeVoltage": null,
+                                                        "voltage": 20.4,
+                                                        "temperature": 693.15,
+                                                        "angle": null,
+                                                        "current": 1.15,
+                                                        "comments": null,
+                                                        "@type": "Annealing",
+                                                        "hasPart": [
+                                                            {
+                                                                "name": "Sputtering 16008",
+                                                                "duration": 600,
+                                                                "pressure": 0.00235,
+                                                                "dischargeVoltage": null,
+                                                                "voltage": 704,
+                                                                "temperature": null,
+                                                                "angle": null,
+                                                                "current": 0.004,
+                                                                "comments": null,
+                                                                "@type": "Sputtering",
+                                                                "hasPart": [
+                                                                    {
+                                                                        "name": "THz-STM/AFM",
+                                                                        "serialNumber": "CT-122037110-03",
+                                                                        "empaId": 76698965,
+                                                                        "documentationWebsite": "http://wikka.empa.ch",
+                                                                        "receivedDate": "2021-12-08",
+                                                                        "comments": null,
+                                                                        "@type": "Instrument",
+                                                                        "hasPart": [
+                                                                            {
+                                                                                "name": "Ion Pump/TSP",
+                                                                                "type": "Pump",
+                                                                                "model": "HiPace 300",
+                                                                                "serialNumber": 796857466,
+                                                                                "empaId": 76698965,
+                                                                                "receivedDate": "2017-04-03",
+                                                                                "comments": null,
+                                                                                "@type": "UHVComponent",
+                                                                                "hasPart": [
+                                                                                    {
+                                                                                        "name": "Pfeiffer Vacuum",
+                                                                                        "email": null,
+                                                                                        "workPhone": null,
+                                                                                        "@type": "Manufacturer"
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "name": "Turbo Qplus FEL",
+                                                                                "type": "Pump",
+                                                                                "model": "HiPace 300",
+                                                                                "serialNumber": 796857466,
+                                                                                "empaId": 76698965,
+                                                                                "receivedDate": "2017-04-03",
+                                                                                "comments": null,
+                                                                                "@type": "UHVComponent",
+                                                                                "hasPart": [
+                                                                                    {
+                                                                                        "name": "Pfeiffer Vacuum",
+                                                                                        "email": null,
+                                                                                        "workPhone": null,
+                                                                                        "@type": "Manufacturer"
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "name": "Pfeiffer Vacuum",
+                                                                                "email": null,
+                                                                                "workPhone": null,
+                                                                                "@type": "Manufacturer"
+                                                                            },
+                                                                            {
+                                                                                "name": "La037",
+                                                                                "comments": null,
+                                                                                "@type": "Room"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "name": "Au111_Gino",
+                                                                        "samplePlate": "Mo068",
+                                                                        "diameter": 0.009,
+                                                                        "height": 0.0025,
+                                                                        "hazardous": false,
+                                                                        "hazardousSpecification": null,
+                                                                        "fridge": true,
+                                                                        "noLight": false,
+                                                                        "dry": false,
+                                                                        "noOxygen": false,
+                                                                        "otherStorageCondition": false,
+                                                                        "otherStorageConditionSpecification": null,
+                                                                        "specifications": "plane-parallel, Pol. < 0.01 um, Or. < 0.1",
+                                                                        "receivedDate": "2016-02-04",
+                                                                        "referenceNumber": 19031510,
+                                                                        "comments": null,
+                                                                        "@type": "CrystalMaterial",
+                                                                        "hasPart": [
+                                                                            {
+                                                                                "name": "Mateck",
+                                                                                "email": null,
+                                                                                "workPhone": null,
+                                                                                "address": null,
+                                                                                "@type": "Supplier"
+                                                                            },
+                                                                            {
+                                                                                "name": "Au111",
+                                                                                "material": "Au",
+                                                                                "face": 111,
+                                                                                "@type": "Crystal"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Second Result",
+                        "description": null,
+                        "comments": null,
+                        "@type": "Result",
+                        "hasPart": [
+                            {
+                                "name": "Bricklet 274 Traceup AFM",
+                                "recordingTime": "2021-02-19T12:30:58",
+                                "acquisitionTime": null,
+                                "biasSetpoint": -0.01,
+                                "biasCalibrationFactor": null,
+                                "biasCalibrationOffset": null,
+                                "currentSetpoint": 1e-10,
+                                "currentCalibrationFactor": null,
+                                "currentCalibrationOffset": null,
+                                "currentGain": null,
+                                "z": null,
+                                "feedbackActive": null,
+                                "feedbackType": null,
+                                "zControllerSetpoint": null,
+                                "zControllerPGain": null,
+                                "zControllerIGain": null,
+                                "zControllerTimeConst": null,
+                                "zControllerTipLift": null,
+                                "zControllerSwitchOffDelay": null,
+                                "piezoActiveCalib": null,
+                                "piezoSensitivityX": null,
+                                "piezoSensitivityY": null,
+                                "piezoSensitivityZ": null,
+                                "piezoHVGainX": null,
+                                "piezoHVGainY": null,
+                                "piezoHVGainZ": null,
+                                "scanSlopeX": null,
+                                "scanSlopeY": null,
+                                "piezoCurvatureRadiusX": null,
+                                "piezoCurvatureRadiusY": null,
+                                "piezo2ndOrderCorrectionX": null,
+                                "piezo2ndOrderCorrectionY": null,
+                                "piezoDriftX": null,
+                                "piezoDriftY": null,
+                                "piezoDriftZ": null,
+                                "piezoDriftCorrectionStatus": null,
+                                "scanField": null,
+                                "scanAngle": null,
+                                "scanOffsetX": null,
+                                "scanOffsetY": null,
+                                "scanTimeX": null,
+                                "scanTimeY": null,
+                                "scanRangeX": null,
+                                "scanRangeY": null,
+                                "scanPixelsX": null,
+                                "scanPixelsY": null,
+                                "scanSpeedForward": null,
+                                "scanSpeedBackwards": null,
+                                "scanDirection": null,
+                                "dwellTime": null,
+                                "sampleTemperature": null,
+                                "recordingTemperature": null,
+                                "oscillationControlDifferentialInput": null,
+                                "oscillationControlOneTen": null,
+                                "oscillationControlInputCalibration": null,
+                                "oscillationControlInputRange": null,
+                                "oscillationControlCenterFrequency": null,
+                                "oscillationControlRange": null,
+                                "oscillationControlDemodulationInput": null,
+                                "oscillationControlDemodulationFrequency": null,
+                                "oscillationControlDemodulationReferencePhase": null,
+                                "oscillationControlDemodulationCutoffFrequency": null,
+                                "oscillationControlDemodulationHarmonic": null,
+                                "oscillationControlDemodulationFilterOrder": null,
+                                "oscillationControlPhasePGain": null,
+                                "oscillationControlPhaseIGain": null,
+                                "oscillationControlPhaseControllerOn": null,
+                                "oscillationControlFrequencyShift": null,
+                                "oscillationControlAmplitudeSetpoint": null,
+                                "oscillationControlAmplitudePGain": null,
+                                "oscillationControlAmplitudeIGain": null,
+                                "oscillationControlAmplitudeControllerOn": null,
+                                "oscillationControlExcitation": null,
+                                "oscillationControlOutputAmplitudeRange": null,
+                                "oscillationControlOutputOff": null,
+                                "oscillationControlOutputAdd": null,
+                                "oscillationControlPLLSetupQFactor": null,
+                                "oscillationControlPLLSetupDemodBWAmp": null,
+                                "oscillationControlPLLSetupDemodBWPha": null,
+                                "oscillationControlPLLSetupAmplitudeExcitation": null,
+                                "comments": "Decent nc-AFM image obtained of a long polymer and its end. The end clearly shows the propenyl group. The reaction therefore is going as predicted.",
+                                "scandx": null,
+                                "scanZMin": null,
+                                "scanZMax": null,
+                                "afmAmplitude": null,
+                                "resonanceFrequency": null,
+                                "pModel": null,
+                                "@type": "AFM",
+                                "hasPart": [
+                                    {
+                                        "name": "Annealing 16013 Third",
+                                        "duration": null,
+                                        "pressure": null,
+                                        "dischargeVoltage": null,
+                                        "voltage": null,
+                                        "temperature": null,
+                                        "angle": null,
+                                        "current": null,
+                                        "comments": null,
+                                        "@type": "Annealing",
+                                        "hasPart": [
+                                            {
+                                                "name": "Deposition 16020",
+                                                "stabilisationTime": 0,
+                                                "depositionTime": 36000,
+                                                "pressure": 4e-08,
+                                                "substrateTemperature": 528,
+                                                "moleculeTemperature": 293,
+                                                "evaporatorSlot": 3,
+                                                "comments": "The sample was kept at 135\u00b0 and the shutter was open for 10 hrs. The molecule was not heated, but the temperature rose from 19.3 to 20\u00b0. Substrate Temperature: (PM:0.6A 12V)235\u00b0C",
+                                                "@type": "Deposition",
+                                                "hasPart": [
+                                                    {
+                                                        "name": "Molecule 531a",
+                                                        "empaNumber": 531,
+                                                        "batch": "a",
+                                                        "vial": "i",
+                                                        "hazardous": false,
+                                                        "hazardousSpecification": null,
+                                                        "evaporationTemperatures": "SRD, 234, 6/2/2021, 12:33:02; 6-Fold LT, 250, 23/10/2021, 16:12:22",
+                                                        "fridge": true,
+                                                        "noLight": false,
+                                                        "dry": false,
+                                                        "noOxygen": false,
+                                                        "otherStorageCondition": false,
+                                                        "otherStorageConditionSpecification": null,
+                                                        "chemistMoleculeName": "QC76820",
+                                                        "amount": "100 mg",
+                                                        "receivedDate": "22/08/2021",
+                                                        "comments": null,
+                                                        "@type": "MoleculePrecursor",
+                                                        "hasPart": [
+                                                            {
+                                                                "name": "Feng Group",
+                                                                "email": null,
+                                                                "workPhone": null,
+                                                                "address": null,
+                                                                "@type": "Supplier"
+                                                            },
+                                                            {
+                                                                "name": "Molecule 531a",
+                                                                "iupacName": "6,12-dinaphthalen-2-ylchrysene",
+                                                                "sumFormula": "C38H24",
+                                                                "smiles": "C1(C#C/C(C2=CC(C=CC=C3)=C3C=C2)=C(C#CC4=CC=CC=C4)\\C5=CC(C=CC=C6)=C6C=C5)=CC=CC=C1",
+                                                                "casNumber": "663954-29-8",
+                                                                "@type": "Molecule"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "Annealing 16013 Second",
+                                                        "duration": 3600.0,
+                                                        "pressure": null,
+                                                        "dischargeVoltage": null,
+                                                        "voltage": null,
+                                                        "temperature": null,
+                                                        "angle": null,
+                                                        "current": null,
+                                                        "comments": "Annealled to 1.13A for approximately 1 hour till pressure awas in mid E-9 mbar range.",
+                                                        "@type": "Annealing",
+                                                        "hasPart": [
+                                                            {
+                                                                "name": "Sputtering 16013 Second",
+                                                                "duration": 600,
+                                                                "pressure": 0.0023,
+                                                                "dischargeVoltage": 1.06,
+                                                                "voltage": 720,
+                                                                "temperature": null,
+                                                                "angle": null,
+                                                                "current": 0.004,
+                                                                "comments": null,
+                                                                "@type": "Sputtering",
+                                                                "hasPart": [
+                                                                    {
+                                                                        "name": "Annealing 16013",
+                                                                        "duration": null,
+                                                                        "pressure": null,
+                                                                        "dischargeVoltage": null,
+                                                                        "voltage": null,
+                                                                        "temperature": null,
+                                                                        "angle": null,
+                                                                        "current": null,
+                                                                        "comments": "Annealled gradually to minimise degasing up to 1.0A current.",
+                                                                        "@type": "Annealing",
+                                                                        "hasPart": [
+                                                                            {
+                                                                                "name": "Sputtering 16013",
+                                                                                "duration": 1200,
+                                                                                "pressure": 0.0024,
+                                                                                "dischargeVoltage": 1.06,
+                                                                                "voltage": 704,
+                                                                                "temperature": null,
+                                                                                "angle": null,
+                                                                                "current": 0.004,
+                                                                                "comments": null,
+                                                                                "@type": "Sputtering",
+                                                                                "hasPart": [
+                                                                                    {
+                                                                                        "name": "Annealing 16008 Second",
+                                                                                        "duration": 600.0,
+                                                                                        "pressure": null,
+                                                                                        "dischargeVoltage": null,
+                                                                                        "voltage": null,
+                                                                                        "temperature": null,
+                                                                                        "angle": null,
+                                                                                        "current": null,
+                                                                                        "comments": null,
+                                                                                        "@type": "Annealing",
+                                                                                        "hasPart": [
+                                                                                            {
+                                                                                                "name": "Deposition 16009",
+                                                                                                "stabilisationTime": 0,
+                                                                                                "depositionTime": 10800,
+                                                                                                "pressure": 6e-08,
+                                                                                                "substrateTemperature": 528,
+                                                                                                "moleculeTemperature": 298,
+                                                                                                "evaporatorSlot": 3,
+                                                                                                "comments": "Evaporator Slot 3.\u00a0The PID values to get 25C were 25,27,5. The sample was heated at 0.65A, and the deposition was started 10 min after starting the sample hat. The smaple was kept such that the sample normal and the flux were parallel (180\u00b0). The shutter was opepend for 3 hours then closed.",
+                                                                                                "@type": "Deposition",
+                                                                                                "hasPart": [
+                                                                                                    {
+                                                                                                        "name": "Molecule 531a",
+                                                                                                        "empaNumber": 531,
+                                                                                                        "batch": "a",
+                                                                                                        "vial": "i",
+                                                                                                        "hazardous": false,
+                                                                                                        "hazardousSpecification": null,
+                                                                                                        "evaporationTemperatures": "SRD, 234, 6/2/2021, 12:33:02; 6-Fold LT, 250, 23/10/2021, 16:12:22",
+                                                                                                        "fridge": true,
+                                                                                                        "noLight": false,
+                                                                                                        "dry": false,
+                                                                                                        "noOxygen": false,
+                                                                                                        "otherStorageCondition": false,
+                                                                                                        "otherStorageConditionSpecification": null,
+                                                                                                        "chemistMoleculeName": "QC76820",
+                                                                                                        "amount": "100 mg",
+                                                                                                        "receivedDate": "22/08/2021",
+                                                                                                        "comments": null,
+                                                                                                        "@type": "MoleculePrecursor",
+                                                                                                        "hasPart": [
+                                                                                                            {
+                                                                                                                "name": "Feng Group",
+                                                                                                                "email": null,
+                                                                                                                "workPhone": null,
+                                                                                                                "address": null,
+                                                                                                                "@type": "Supplier"
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "name": "Molecule 531a",
+                                                                                                                "iupacName": "6,12-dinaphthalen-2-ylchrysene",
+                                                                                                                "sumFormula": "C38H24",
+                                                                                                                "smiles": "C1(C#C/C(C2=CC(C=CC=C3)=C3C=C2)=C(C#CC4=CC=CC=C4)\\C5=CC(C=CC=C6)=C6C=C5)=CC=CC=C1",
+                                                                                                                "casNumber": "663954-29-8",
+                                                                                                                "@type": "Molecule"
+                                                                                                            }
+                                                                                                        ]
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "name": "Annealing 16008",
+                                                                                                        "duration": 900.0,
+                                                                                                        "pressure": 0.00235,
+                                                                                                        "dischargeVoltage": null,
+                                                                                                        "voltage": 20.4,
+                                                                                                        "temperature": 693.15,
+                                                                                                        "angle": null,
+                                                                                                        "current": 1.15,
+                                                                                                        "comments": null,
+                                                                                                        "@type": "Annealing",
+                                                                                                        "hasPart": [
+                                                                                                            {
+                                                                                                                "name": "Sputtering 16008",
+                                                                                                                "duration": 600,
+                                                                                                                "pressure": 0.00235,
+                                                                                                                "dischargeVoltage": null,
+                                                                                                                "voltage": 704,
+                                                                                                                "temperature": null,
+                                                                                                                "angle": null,
+                                                                                                                "current": 0.004,
+                                                                                                                "comments": null,
+                                                                                                                "@type": "Sputtering",
+                                                                                                                "hasPart": [
+                                                                                                                    {
+                                                                                                                        "name": "THz-STM/AFM",
+                                                                                                                        "serialNumber": "CT-122037110-03",
+                                                                                                                        "empaId": 76698965,
+                                                                                                                        "documentationWebsite": "http://wikka.empa.ch",
+                                                                                                                        "receivedDate": "2021-12-08",
+                                                                                                                        "comments": null,
+                                                                                                                        "@type": "Instrument",
+                                                                                                                        "hasPart": [
+                                                                                                                            {
+                                                                                                                                "name": "Ion Pump/TSP",
+                                                                                                                                "type": "Pump",
+                                                                                                                                "model": "HiPace 300",
+                                                                                                                                "serialNumber": 796857466,
+                                                                                                                                "empaId": 76698965,
+                                                                                                                                "receivedDate": "2017-04-03",
+                                                                                                                                "comments": null,
+                                                                                                                                "@type": "UHVComponent",
+                                                                                                                                "hasPart": [
+                                                                                                                                    {
+                                                                                                                                        "name": "Pfeiffer Vacuum",
+                                                                                                                                        "email": null,
+                                                                                                                                        "workPhone": null,
+                                                                                                                                        "@type": "Manufacturer"
+                                                                                                                                    }
+                                                                                                                                ]
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "name": "Turbo Qplus FEL",
+                                                                                                                                "type": "Pump",
+                                                                                                                                "model": "HiPace 300",
+                                                                                                                                "serialNumber": 796857466,
+                                                                                                                                "empaId": 76698965,
+                                                                                                                                "receivedDate": "2017-04-03",
+                                                                                                                                "comments": null,
+                                                                                                                                "@type": "UHVComponent",
+                                                                                                                                "hasPart": [
+                                                                                                                                    {
+                                                                                                                                        "name": "Pfeiffer Vacuum",
+                                                                                                                                        "email": null,
+                                                                                                                                        "workPhone": null,
+                                                                                                                                        "@type": "Manufacturer"
+                                                                                                                                    }
+                                                                                                                                ]
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "name": "Pfeiffer Vacuum",
+                                                                                                                                "email": null,
+                                                                                                                                "workPhone": null,
+                                                                                                                                "@type": "Manufacturer"
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "name": "La037",
+                                                                                                                                "comments": null,
+                                                                                                                                "@type": "Room"
+                                                                                                                            }
+                                                                                                                        ]
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "name": "Au111_Gino",
+                                                                                                                        "samplePlate": "Mo068",
+                                                                                                                        "diameter": 0.009,
+                                                                                                                        "height": 0.0025,
+                                                                                                                        "hazardous": false,
+                                                                                                                        "hazardousSpecification": null,
+                                                                                                                        "fridge": true,
+                                                                                                                        "noLight": false,
+                                                                                                                        "dry": false,
+                                                                                                                        "noOxygen": false,
+                                                                                                                        "otherStorageCondition": false,
+                                                                                                                        "otherStorageConditionSpecification": null,
+                                                                                                                        "specifications": "plane-parallel, Pol. < 0.01 um, Or. < 0.1",
+                                                                                                                        "receivedDate": "2016-02-04",
+                                                                                                                        "referenceNumber": 19031510,
+                                                                                                                        "comments": null,
+                                                                                                                        "@type": "CrystalMaterial",
+                                                                                                                        "hasPart": [
+                                                                                                                            {
+                                                                                                                                "name": "Mateck",
+                                                                                                                                "email": null,
+                                                                                                                                "workPhone": null,
+                                                                                                                                "address": null,
+                                                                                                                                "@type": "Supplier"
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "name": "Au111",
+                                                                                                                                "material": "Au",
+                                                                                                                                "face": 111,
+                                                                                                                                "@type": "Crystal"
+                                                                                                                            }
+                                                                                                                        ]
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            }
+                                                                                                        ]
+                                                                                                    }
+                                                                                                ]
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "CHICRESCE",
+                "funder": "SNF",
+                "startDate": "2023-01-04",
+                "endDate": "2026-01-04",
+                "budget": 1000000,
+                "currency": "CHF",
+                "projectId": null,
+                "acknowledgement": null,
+                "comments": null,
+                "@type": "Grant"
+            }
+        ]
+    }
+}

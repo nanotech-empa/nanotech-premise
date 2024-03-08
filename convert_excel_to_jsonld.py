@@ -331,6 +331,7 @@ for sheet_name in experiment_objects_excel_sheets_names:
         for col_name, col in objects_metadata.items():
             if col.dtype == "datetime64[ns]":
                 objects_metadata[col_name] = objects_metadata[col_name].astype(str)
+                objects_metadata[col_name] = objects_metadata[col_name].str.replace(" ", "T")
         
         # Save the objects according to the type
         all_objects_metadata[sheet_name] = objects_metadata
@@ -350,12 +351,13 @@ for idx, object_1_id in enumerate(experiment_metadata["Object 1"]):
 selected_object = "PUBL1"
 all_objects_relations_dict = compute_jsonld_data(all_objects_relations, object_code_ontology_map, schema_ontology, all_objects_metadata, selected_object)
 all_objects_relations_dict_merged = merge_relations(all_objects_relations_dict)
+all_objects_relations_dict_merged["@graph"] = all_objects_relations_dict_merged["@graph"]["PUBL1"]
 
 #%% Export to JSON-LD
 jsonld_object = json.dumps(all_objects_relations_dict_merged, indent=4)
  
 # Writing to sample.json
-with open("selected_object_schema.jsonld", "w") as outfile:
+with open("selected_object_schema.json", "w") as outfile:
     outfile.write(jsonld_object)
 
 """
